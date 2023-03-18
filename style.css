@@ -1,0 +1,368 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+#header-id{
+	display: flex;
+	/* height: 100px;
+	width: 100px; */
+}
+@media (min-width:200px)  
+        {
+          
+            body
+            {
+            padding: 0px;
+            margin: 0px;
+           
+            background-color:#111;
+            }  
+        }
+        nav #border{
+            border: 2px solid white;
+            margin: auto;
+            margin-top: 150px;
+            height: 490px;
+            width: 1200px;
+        }
+        img{
+            display: flex;
+            padding: 22px 19px;
+            width: 300px;
+            height: 450px;
+            border-radius: 50px;
+            z-index: 90;
+        }
+        .next-js{
+            
+            display: inline-block;
+            position: absolute;
+            top: 165px;
+            right: 8px;
+            
+            border: 1px solid white;
+            background-color: #eee;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+
+            /* display: flex;
+            justify-content: end;
+            justify-content: flex-start; */
+
+        }
+        .next-js img{
+           
+            display: inline-block;
+            position: absolute;
+            padding: 10px 8px;
+            color: white;
+            width: 38px;
+            height: 30px;
+            margin: 0px;
+        }
+        #icons img{
+            display: inline-block;
+            position: absolute;
+            padding: 10px 8px;
+            color: white;
+            width: 62px;
+            height: 295px;
+            margin: 0px;
+            left: 113px;
+        }
+        #about img{
+            display: inline-block;
+            position: absolute;
+            padding: 0px 2px;
+            color: white;
+            width: 170px;
+            height: 55px;
+            margin: 0px;
+            left: 455px;
+            bottom: 226px;
+        }
+        #react img{
+            display: inline-block;
+            position: absolute;
+            padding: 0px 2px;
+            color: white;
+            width: 410px;
+            height: 55px;
+            margin: 0px;
+            left: 755px;
+            bottom: 136px;
+        }
+        /* #bakone img{
+            display: inline-block;
+            position: absolute;
+            padding: 0px 2px;
+            color: white;
+            width: 410px;
+            height: 5px;
+            margin: 0px;
+            left: 755px;
+            bottom: 136px; */
+        
+        #baktwo img{
+            display: inline-block;
+            position: absolute;
+            padding: 0px 2px;
+            color: white;
+            width: 360px;
+            height: 490px;
+            margin: 0px;
+            left: 1px;
+            bottom: 130px;
+            z-index: -5;
+        }
+        .next-js #next-para{
+           
+                display: inline-block;
+                bottom: -1px;
+                align-self: auto;
+                position: relative;
+                right: -83;
+                padding: 15px 55px;
+                color: white;
+                width: -1px;
+                height: 22px;
+                margin: 0px;
+                color: black;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+         /* div .right
+        {
+                color: white;
+                position: absolute;
+                top: 70px;
+                left: 120px;   
+                border: 1px solid #FFB908 ;
+                background-color: #FFB908;
+                padding: 10px 10px;
+                border-radius: 50%;
+    
+        } 
+
+         div .right .second-class
+        {
+            
+                position: absolute;
+                top: 70px;
+                left: 0px;
+                border: 1px solid #eee;
+                background-color:  #2D2B2E;
+                padding: 11px 12px;
+                border-radius: 50%;
+                color: white;
+        } 
+          div .right .third-class
+        {
+            
+                position: absolute;
+                top: 144px;
+                left: 0px;
+                border: 1px solid #eee;
+                background-color:  #2D2B2E;
+                padding: 11px 12px;
+                border-radius: 50%;
+        }
+
+         div .right .forth-class
+        {
+            
+                position: absolute;
+                top: 221px;
+                left: 0px;
+                border: 1px solid  #eee;
+                background-color: #2D2B2E;
+                padding: 11px 12px;
+                border-radius: 50%;
+        } 
+
+         div .right .fifth-class
+        {
+            
+                position: absolute;
+                top: 297px;
+                left: 0px;
+                border: 1px solid #eee;
+                background-color: #2e2e2b;
+                padding: 11px 12px;
+                border-radius: 50%; 
+        }  */
+        .heading h1{
+            display: inline-block;
+            position: absolute;
+            top: 196px;
+            color: #F2C814;
+            left: 450px;
+            font-size: 50px;
+            
+        }
+
+        .heading #web-designer{
+            display: inline-block;
+            position: absolute;
+            top:260px;
+            color: white;
+            left: 520px;
+            font-size: 50px;
+            
+            
+        }
+
+        .heading #paragraph-id{
+            display: inline-block;
+            position: relative;
+            top:-280px;
+            color: white;
+            left:450px;
+            text-align:justify;
+            line-height: 25px;
+        }
+
+        .heading #more-about{
+            display: inline-block;
+            position: relative;
+            top: -225px;
+            color: white;
+            left: -153px;
+            padding: 1px;
+            border-top:  1px solid white;
+            border-bottom:  1px solid white;
+            border-left:  1px solid white; 
+            /* border-right:  1px solid white; */
+
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            /* border-radius: 50px; */
+           
+        }
+        /* body{
+            background-image: url("background.jpg");
+            background-size: 350px 100px;
+            background-repeat: no-repeat;
+        
+        } */
+
+        .heading #more-about #arrow-id{
+            display: inline-block;
+            position: relative;
+            top: -2px;
+            color: white;
+            left: 19px;
+            background: #FAB504;
+            border: 1px solid #FAB504;
+            height: 29px;
+            width: 30px;
+            border-radius: 50%;
+            padding: 5px 5px;
+            
+        }
+        #arrow-id{
+            padding: 10px;
+            padding: 10px 10px;
+            text-align:center;
+        }
+        .footer #react{
+            color: white;
+            display: inline-block;
+            position: relative;
+            top: -38px;
+            left: 704px;
+            color: aqua;
+            font-size: 20px;
+        }
+        
+
+        .footer #node{
+            color: white;
+             display: inline-block;
+            position: relative;
+            top: -57px;
+            left: 860px;
+            color:  lightgreen;
+            font-size: 20px;
+        }
+
+        .footer #boot{
+            color: white;
+             display: inline-block;
+            position: relative;
+            top: -78px;
+            left: 1000px;
+            color: rgb(84, 54, 84);
+            font-size: 20px;
+        }
+
+        .footer #rtl{
+            color: white;
+             display: inline-block;
+            position: relative;
+            top: -99px;
+            left: 1140px;
+            color: red;
+            font-size: 15px;
+        }
+
